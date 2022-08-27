@@ -97,9 +97,9 @@
 	}
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 450px) {
 	.dyka__navbar {
-		padding: 2rem;
+		padding: 0.7rem;
 	}
 
 	.dyka__navbar-menu_container {
