@@ -1,5 +1,6 @@
 import React from "react";
-import {  Hero, About, Gallery, Footer, Navbar } from "./containers";
+import { Hero, About, Gallery, Footer, Navbar } from "./containers";
+import Welcome from "./components/welcome/Welcome";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      {/* <Welcome /> */}
       <About />
       <Gallery />
       <Footer />

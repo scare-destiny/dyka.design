@@ -1,0 +1,25 @@
+.dyka__about-welcome_container {
+	font-family: var(--font-family);
+	font-weight: bold;
+	text-align: center;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.dyka__about-welcome_container span {
+	line-height: 12px;
+	text-transform: uppercase;
+	color: #161616;
+	letter-spacing: -.03em;
+}
+
+.dyka__about-welcome_container .subheader {
+	font-size: 1.5rem;
+}
+
+
+.dyka__about-welcome_container .bigheader {
+	font-size: 60px;
+	line-height: 50px;
+}
