@@ -54,18 +54,6 @@ const Marquee = () => {
           />
         </div>
       </div>
-      <div className="marquee marquee--borders" style={{ duration: "100s" }}>
-        <div className="marquee__group">
-          <p>Dyka Design</p>
-          <p aria-hidden="true">Dyka Design</p>
-          <p aria-hidden="true">Dyka Design</p>
-        </div>
-        <div aria-hidden="true" className="marquee_group">
-          <p>Dyka Design</p>
-          <p>Dyka Design</p>
-          <p>Dyka Design</p>
-        </div>
-      </div>
     </>
   );
 };

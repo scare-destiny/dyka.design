@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Hero, About, Gallery, Footer, Navbar } from "./containers";
+import {  Hero, About, Gallery, Footer, Navbar } from "./containers";
 import "./App.css";
 
 function App() {
