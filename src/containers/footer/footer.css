@@ -1,0 +1,12 @@
+.dyka__footer {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap: 10px;
+
+	margin: 2rem;
+}
+
+.dyka__footer svg {
+	cursor: pointer;
+}

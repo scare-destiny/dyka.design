@@ -1,0 +1,30 @@
+.dyka__about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.dyka__about-text_container {
+	width: 60%;
+	padding: 20px 40px;
+}
+
+.dyka__about p {
+	font-family: var(--font-family);
+	font-size: 14px;
+	display: block;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 400px) {
+	.dyka__about-text_container {
+		width: 80%;
+	}
+	.dyka__about p {
+		font-size: 0.9rem;
+	}
+}
