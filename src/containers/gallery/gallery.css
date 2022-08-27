@@ -14,9 +14,11 @@
 	font-weight: 800;
 	line-height: 1.5;
 
-	padding-bottom: 30px;
+	padding-bottom: 2rem;
 
 }
+
+
 
 .marquee {
 	--duration: 60s;
@@ -27,6 +29,12 @@
 	user-select: none;
 	gap: var(--gap);
 
+}
+
+@media screen and (max-width: 400px) {
+	img{
+		min-height: 15vh;
+	}
 }
 
 .marquee__group {
@@ -49,12 +57,6 @@
 	max-width: clamp(10rem, 1rem + 28vmin, 25rem);
 	aspect-ratio: 1.4;
 	object-fit: cover;
-}
-
-
-.marquee--borders {
-	border-block: 3px solid #1d1d1d;
-	padding-block: 0.5rem;
 }
 
 .marquee--reverse .marquee__group {
