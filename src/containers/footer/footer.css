@@ -1,12 +1,142 @@
 .dyka__footer {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: var(--color-footer);
+}
+
+.dyka__footer-heading {
+	width: 100%;
+	text-align: center;
+	margin: 3rem 0;
+}
+
+.dyka__footer-heading h1 {
+	font-family: var(--font-family);
+	font-style: normal;
+	font-weight: 800;
+	font-size: 62px;
+	line-height: 75px;
+	color: #FFFFFF;
+
+	text-align: center;
+	letter-spacing: -0.04em;
+}
+
+.dyka__footer-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+	border: 1px solid #FFFFFF;
+	text-align: center;
+	margin-bottom: 5rem;
+	cursor: pointer;
+}
+
+.dyka__footer-btn p {
+	box-sizing: border-box;
+	font-family: var(--font-family);
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+	word-spacing: 2px;
+
+}
+
+.dyka__footer-links {
+	/* display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	width: 100%;
+	*/
+	text-align: center; 
+}
+
+.dyka__footer-links div {
+	width: 250px;
+	margin: 1rem;
+}
+
+
+.dyka__footer-links_div {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.dyka__footer-links_div h4 {
+	font-family: var(--font-family);
+	font-size: 14px;
+	line-height: 16px;
+	/* identical to box height */
+	margin-bottom: 1rem;
+
+}
+
+.dyka__footer-links_div p {
+	font-family: var(--font-family);
+	font-size: 12px;
+	line-height: 14px;
+
+	margin: 0.5rem 0;
+	cursor: pointer;
+}
+
+.dyka__footer-copyright {
+	margin-top: 2rem;
+	text-align: center;
+	width: 100%;
+}
+
+.dyka__footer-copyright p {
+	font-family: var(--font-family);
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.dyka__footer-links-social {
+	display: flex;
 	justify-content: center;
 	align-content: center;
 	gap: 10px;
 
-	margin: 2rem;
+	padding-top: 2rem;
 }
 
-.dyka__footer svg {
+.dyka__footer-links-social svg {
 	cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+	.dyka__footer-heading h1 {
+		font-size: 44px;
+		line-height: 50px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.dyka__footer-heading h1 {
+		font-size: 30px;
+	}
+
+	.dyka__footer-links div {
+		margin: 1rem 0;
+	}
+
+	.dyka__footer-btn p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.dyka__footer-heading h1 {
+		font-size: 27px;
+		line-height: 38px;
+	}
 }

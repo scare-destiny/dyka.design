@@ -5,7 +5,7 @@ import "./about.css";
 const About = () => {
   return (
     <div className="dyka__about">
-      <div className="dyka__about-text_container">
+      <div className="dyka__about-text_container section__padding">
         <p>
           Hi, my name is Anastasiia, and welcome to my website! My passion for
           design and understanding clients' needs is what I have lived and
