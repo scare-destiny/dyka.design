@@ -16,55 +16,55 @@ const Marquee = () => {
       <div className="marquee">
         <div className="marquee__group">
           <img
-            src={image1}
-            srcSet={`${image1low} 480W, ${image1} 1000w`}
+            src={image1low}
+            srcSet={`${image1low} 300w, ${image1} 768w,`} 
             alt=""
           />
           <img
-            src={image2}
-            srcSet={`${image2low} 480W, ${image2} 1000w`}
+            src={image2low}
+            srcSet={`${image2low} 300w, ${image2} 768w,`} 
             alt=""
           />
           <img
-            src={image3}
-            srcSet={`${image3low} 480W, ${image3} 1000w`}
+            src={image3low}
+            srcSet={`${image3low} 300w, ${image3} 768w,`} 
             alt=""
           />
           <img
-            src={image4}
-            srcSet={`${image4low} 480W, ${image4} 1000w`}
+            src={image4low}
+            srcSet={`${image4low} 300w, ${image4} 768w,`} 
             alt=""
           />
           <img
-            src={image5}
-            srcSet={`${image5low} 480W, ${image5} 1000w`}
+            src={image5low}
+            srcSet={`${image5low} 300w, ${image5} 768w,`} 
             alt=""
           />
         </div>
         <div aria-hidden="true" className="marquee__group">
           <img
-            src={image1}
-            srcSet={`${image1low} 480W, ${image1} 1000w`}
+            src={image1low}
+            srcSet={`${image1low} 300w, ${image1} 768w,`} 
             alt=""
           />
           <img
-            src={image2}
-            srcSet={`${image2low} 480W, ${image2} 1000w`}
+            src={image2low}
+            srcSet={`${image2low} 300w, ${image2} 768w,`} 
             alt=""
           />
           <img
-            src={image3}
-            srcSet={`${image3low} 480W, ${image3} 1000w`}
+            src={image3low}
+            srcSet={`${image3low} 300w, ${image3} 768w,`} 
             alt=""
           />
           <img
-            src={image4}
-            srcSet={`${image4low} 480W, ${image4} 1000w`}
+            src={image4low}
+            srcSet={`${image4low} 300w, ${image4} 768w,`} 
             alt=""
           />
           <img
-            src={image5}
-            srcSet={`${image5low} 480W, ${image5} 1000w`}
+            src={image5low}
+            srcSet={`${image5low} 300w, ${image5} 768w,`} 
             alt=""
           />
         </div>
