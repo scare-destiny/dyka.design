@@ -17,54 +17,54 @@ const Marquee = () => {
         <div className="marquee__group">
           <img
             src={image1low}
-            srcSet={image1}
+            // srcSet={image1}
             alt=""
           />
           <img
             src={image2low}
-            srcSet={image2}
+            // srcSet={image2}
             alt=""
           />
           <img
             src={image3low}
-            srcSet={image3}
+            // srcSet={image3}
             alt=""
           />
           <img
             src={image4low}
-            srcSet={image4}
+            // srcSet={image4}
             alt=""
           />
           <img
             src={image5low}
-            srcSet={image5}
+            // srcSet={image5}
             alt=""
           />
         </div>
         <div aria-hidden="true" className="marquee__group">
 				<img
             src={image1low}
-            srcSet={image2}
+            // srcSet={image2}
             alt=""
           />
           <img
             src={image2low}
-            srcSet={image2}
+            // srcSet={image2}
             alt=""
           />
           <img
             src={image3low}
-            srcSet={image3}
+            // srcSet={image3}
             alt=""
           />
           <img
             src={image4low}
-            srcSet={image4}
+            // srcSet={image4}
             alt=""
           />
           <img
             src={image5low}
-            srcSet={image5}
+            // srcSet={image5}
             alt=""
           />
         </div>

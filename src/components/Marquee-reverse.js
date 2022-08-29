@@ -16,54 +16,54 @@ const MarqueeReversed = () => {
         <div className="marquee__group">
           <img
             src={image6low}
-            srcSet={image6}
+            // srcSet={image6}
             alt="logo"
           />
           <img
             src={image7low}
-            srcSet={image7}
+            // srcSet={image7}
             alt="logo"
           />
           <img
             src={image8low}
-            srcSet={image8}
+            // srcSet={image8}
             alt="logo"
           />
           <img
             src={image9low}
-            srcSet={image9}
+            // srcSet={image9}
             alt="logo"
 					/>
           <img
             src={image10low}
-            srcSet={image10}
+            // srcSet={image10}
             alt="logo"
           />
         </div>
         <div aria-hidden="true" className="marquee__group">
           <img
             src={image6low}
-            srcSet={image6}
+            // srcSet={image6}
             alt="logo"
           />
           <img
             src={image7low}
-            srcSet={image7}
+            // srcSet={image7}
             alt="logo"
           />
           <img
             src={image8low}
-            srcSet={image8}
+            // srcSet={image8}
             alt="logo"
           />
           <img
             src={image9low}
-            srcSet={image9}
+            // srcSet={image9}
             alt="logo"
 					/>
           <img
             src={image10low}
-            srcSet={image10}
+            // srcSet={image10}
             alt="logo"
           />
         </div>
