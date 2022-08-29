@@ -15,55 +15,55 @@ const MarqueeReversed = () => {
       <div className="marquee marquee--reverse">
         <div className="marquee__group">
           <img
+             srcSet={`${image6low} 200w, ${image6} 1000w`}
             src={image6low}
-            // srcSet={image6}
             alt="logo"
           />
           <img
+             srcSet={`${image7low} 200w, ${image7} 1000w`}
             src={image7low}
-            // srcSet={image7}
             alt="logo"
           />
           <img
+             srcSet={`${image8low} 200w, ${image8} 1000w`}
             src={image8low}
-            // srcSet={image8}
             alt="logo"
           />
           <img
+             srcSet={`${image9low} 200w, ${image9} 1000w`}
             src={image9low}
-            // srcSet={image9}
             alt="logo"
 					/>
           <img
+             srcSet={`${image10low} 200w, ${image10} 1000w`}
             src={image10low}
-            // srcSet={image10}
             alt="logo"
           />
         </div>
         <div aria-hidden="true" className="marquee__group">
           <img
+             srcSet={`${image6low} 200w, ${image6} 1000w`}
             src={image6low}
-            // srcSet={image6}
             alt="logo"
           />
           <img
+            srcSet={`${image7low} 200w, ${image7} 1000w`}
             src={image7low}
-            // srcSet={image7}
             alt="logo"
           />
           <img
+             srcSet={`${image8low} 200w, ${image8} 1000w`}
             src={image8low}
-            // srcSet={image8}
             alt="logo"
           />
           <img
+            srcSet={`${image9low} 200w, ${image9} 1000w`}
             src={image9low}
-            // srcSet={image9}
             alt="logo"
 					/>
           <img
+             srcSet={`${image10low} 200w, ${image10} 1000w`}
             src={image10low}
-            // srcSet={image10}
             alt="logo"
           />
         </div>

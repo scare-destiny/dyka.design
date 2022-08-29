@@ -10,61 +10,63 @@ import image3low from '../assets/lowres/gallery-3-lowres.jpg';
 import image4low from '../assets/lowres/gallery-4-lowres.jpg';
 import image5low from '../assets/lowres/gallery-5-lowres.jpg';
 
+
 const Marquee = () => {
   return (
     <>
       <div className="marquee">
         <div className="marquee__group">
           <img
+            srcSet={`${image1low} 200w, ${image1} 1000w`}
             src={image1low}
-            // srcSet={image1}
             alt=""
+            
           />
           <img
+            srcSet={`${image2low} 200w, ${image2} 1000w`}
             src={image2low}
-            // srcSet={image2}
             alt=""
           />
           <img
+            srcSet={`${image3low} 200w, ${image3} 1000w`}
             src={image3low}
-            // srcSet={image3}
             alt=""
           />
           <img
+            srcSet={`${image4low} 200w, ${image4} 1000w`}
             src={image4low}
-            // srcSet={image4}
             alt=""
           />
           <img
+            srcSet={`${image5low} 200w, ${image5} 1000w`}
             src={image5low}
-            // srcSet={image5}
             alt=""
           />
         </div>
         <div aria-hidden="true" className="marquee__group">
 				<img
+            srcSet={`${image1low} 200w, ${image1} 1000w`}
             src={image1low}
-            // srcSet={image2}
             alt=""
           />
           <img
+            srcSet={`${image2low} 200w, ${image2} 1000w`}
             src={image2low}
-            // srcSet={image2}
             alt=""
           />
           <img
+            srcSet={`${image3low} 200w, ${image3} 1000w`}
             src={image3low}
-            // srcSet={image3}
             alt=""
           />
           <img
+            srcSet={`${image4low} 200w, ${image4} 1000w`}
             src={image4low}
-            // srcSet={image4}
             alt=""
           />
           <img
+            srcSet={`${image5low} 200w, ${image5} 1000w`}
             src={image5low}
-            // srcSet={image5}
             alt=""
           />
         </div>
