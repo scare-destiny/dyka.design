@@ -15,55 +15,55 @@ const MarqueeReversed = () => {
       <div className="marquee marquee--reverse">
         <div className="marquee__group">
           <img
-            src={image6}
-            srcSet={`${image6low} 480W, ${image6} 1000w`}
+             src={image6low}
+             srcSet={`${image6} 1800w, ${image6low} 1200w`} 
             alt="logo"
           />
           <img
-            src={image7}
-            srcSet={`${image7low} 480W, ${image7} 1000w`}
+              src={image7low}
+              srcSet={`${image7} 1800w, ${image7low} 900w`} 
             alt="logo"
           />
           <img
-            src={image8}
-            srcSet={`${image8low} 480W, ${image8} 1000w`}
+              src={image8low}
+              srcSet={`${image8} 1800w, ${image8low} 1200w`} 
             alt="logo"
           />
           <img
-            src={image9}
-            srcSet={`${image9low} 480W, ${image9} 1000w`}
+             src={image9low}
+             srcSet={`${image9} 1800w, ${image9low} 1200w`} 
             alt="logo"
           />
           <img
-            src={image10}
-            srcSet={`${image10low} 480W, ${image10} 1000w`}
+              src={image10low}
+              srcSet={`${image10} 1800w, ${image10low} 1200w`} 
             alt="logo"
           />
         </div>
         <div aria-hidden="true" className="marquee__group">
           <img
-            src={image6}
-            srcSet={`${image6low} 480W, ${image6} 1000w`}
+              src={image6low}
+              srcSet={`${image6} 1800w, ${image6low} 1200w`} 
             alt="logo"
           />
           <img
-            src={image7}
-            srcSet={`${image7low} 480W, ${image7} 1000w`}
+              src={image7low}
+              srcSet={`${image7} 1800w, ${image7low} 1200w`} 
             alt="logo"
           />
           <img
-           src={image8}
-           srcSet={`${image8low} 480W, ${image8} 1000w`}
+             src={image8low}
+             srcSet={`${image8} 1800w, ${image8low} 1200w`} 
            alt="logo"
           />
           <img
-            src={image9}
-            srcSet={`${image9low} 480W, ${image9} 1000w`}
+              src={image9low}
+              srcSet={`${image9} 1800w, ${image9low} 1200w`} 
             alt="logo"
           />
           <img
-            src={image10}
-            srcSet={`${image10low} 480W, ${image10} 1000w`}
+              src={image10low}
+              srcSet={`${image10} 1800w, ${image10low} 1200w`} 
             alt="logo"
           />
         </div>
