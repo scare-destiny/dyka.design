@@ -1,28 +1,29 @@
 import React from "react";
 import { BsBehance, BsInstagram } from "react-icons/bs";
+import Menu from "../../components/menu";
 import "./footer.css";
-import transparentlogo from "../../assets/logo-removebg.png";
 
-const Footer = () => {
+const Footer = ({header, cta}) => {
   return (
     <div className="dyka__footer section__padding">
       <div className="dyka__footer-heading">
         <h1 className="footer__text">
-          Do you want to turn your project into reality?
+          {header}
         </h1>
       </div>
       <div className="dyka__footer-btn">
-        <p>Contact Me</p>
+        <p>{cta}</p>
       </div>
 
       <div className="dyka__footer-links">
         <div className="dyka__footer-links_div">
-          <p>Main</p>
+          <Menu/>
+          {/* <p>Main</p>
           <p>Residential</p>
           <p>Commercial</p>
           <p>Art</p>
           <p>About</p>
-          <p>Contact</p>
+          <p>Contact</p> */}
         </div>
       </div>
       <div className="dyka__footer-copyright">

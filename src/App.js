@@ -1,18 +1,17 @@
 import React from "react";
-import { Hero, About, Gallery, Footer, Navbar } from "./containers";
-import Welcome from "./components/welcome/Welcome";
+import { Outlet, Link } from "react-router-dom";
+import { Hero, About, Gallery, Footer, Navbar, NavbarNew } from "./containers";
 import "./App.css";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      {/* <Welcome /> */}
-      <About />
-      <Gallery />
-      <Footer />
-    </div>
+      <div>
+        <NavbarNew />
+        <Hero />
+        <About />
+        <Gallery />
+        <Footer header={'Do you want to turn your project into reality?'} cta='Contact me'  />
+      </div>
   );
 }
 
