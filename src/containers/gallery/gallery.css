@@ -1,4 +1,3 @@
-
 .container-marquee {
 	min-height: 15vh;
 
@@ -32,7 +31,7 @@
 }
 
 @media screen and (max-width: 400px) {
-	img{
+	img {
 		min-height: 15vh;
 	}
 }
@@ -54,6 +53,7 @@
 }
 
 .marquee__group img {
+	min-width: 10vh;
 	max-width: clamp(10rem, 1rem + 28vmin, 25rem);
 	aspect-ratio: 1.4;
 	object-fit: cover;

@@ -7,6 +7,7 @@ import { Residential, Commercial, Art, About, Contact } from "./pages";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  <React.StrictMode>
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
@@ -16,5 +17,6 @@ root.render(
       <Route path="contact" element={<Contact />} />
       <Route path="about" element={<About />} />
     </Routes>
-  </BrowserRouter>
+    </BrowserRouter>
+    </React.StrictMode>
 );
