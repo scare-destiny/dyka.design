@@ -12,7 +12,6 @@ import {
 	MenuList,
 	MenuItem,
 	MenuDivider,
-	useDisclosure,
 	useColorModeValue,
 	Stack,
 	useColorMode,
@@ -61,7 +60,6 @@ const MenuLinks = () => {
 }
 const Navbar = () => {
 	const { colorMode, toggleColorMode } = useColorMode()
-	const { isOpen, onOpen, onClose } = useDisclosure()
 	return (
 		<>
 			<Box bg={useColorModeValue('white.100', 'white.900')} px={4}>

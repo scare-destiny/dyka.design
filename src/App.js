@@ -5,22 +5,19 @@ import {
 	Gallery,
 	Testimonials,
 	Footer,
-	Navbar
+	Navbar,
 } from './containers'
 import './App.css'
 
 const App = () => {
-	// TODO ADD DARK MODE
 	return (
 		<div>
-			{/* <Navbar/> */}
+			<Navbar/>
 			<Hero />
 			<About />
 			<Gallery />
 			<Testimonials />
-			<Footer
-		
-			/>
+			<Footer />
 		</div>
 	)
 }

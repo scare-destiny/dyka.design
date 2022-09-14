@@ -1,5 +1,4 @@
 import React from 'react'
-import { BsBehance, BsInstagram } from 'react-icons/bs'
 import Menu from '../../components/Menu/menu'
 import './footer.css'
 
@@ -7,13 +6,12 @@ import {
 	Box,
 	chakra,
 	Container,
-	Link,
 	Stack,
 	Text,
 	useColorModeValue,
 	VisuallyHidden,
 } from '@chakra-ui/react'
-import { FaInstagram, FaTwitter, FaYoutube, FaBehance } from 'react-icons/fa'
+import { FaInstagram, FaBehance } from 'react-icons/fa'
 
 const Logo = (props) => {
 	return (
@@ -74,7 +72,7 @@ const Footer = () => {
 				align={'center'}
 			>
 				<Logo />
-        <Stack direction={'row'} spacing={6}>
+				<Stack direction={'row'} spacing={6}>
 					<Menu />
 				</Stack>
 			</Container>
