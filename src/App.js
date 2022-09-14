@@ -18,10 +18,9 @@ const App = () => {
 			<About />
 			<Gallery />
 			<Testimonials />
-			<Footer
-				heading={'Do you want to turn your project into reality?'}
-				cta='Contact me'
-			/>
+			{/* <Footer
+		
+			/> */}
 		</div>
 	)
 }
