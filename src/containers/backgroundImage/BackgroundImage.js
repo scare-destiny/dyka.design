@@ -5,7 +5,6 @@ import {
 	Text,
 	VStack,
 	useBreakpointValue,
-	background,
 } from '@chakra-ui/react'
 
 const BackgroundImage = ({ image, backgroundPosition, text, buttonText }) => {

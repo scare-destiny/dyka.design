@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import './scrolltrigger.css'
-import { Box, SimpleGrid } from '@chakra-ui/react'
 import commercial1 from "../../assets/commercial-1.webp"
 import commercial2 from "../../assets/commercial-2.webp"
 import commercial3 from "../../assets/commercial-3.webp"

@@ -7,7 +7,6 @@ import {
 	SimpleGrid,
 	useColorModeValue,
 } from '@chakra-ui/react'
-import quotesImage from '../../assets/quote-svgrepo-com (1).svg'
 
 const testimonials = [
 	{

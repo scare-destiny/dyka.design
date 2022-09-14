@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Outlet, Link, NavLink } from "react-router-dom";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import Menu from "../../components/Menu/menu";
 import logo from "../../assets/logo.jpg";
