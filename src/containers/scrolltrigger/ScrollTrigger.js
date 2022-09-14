@@ -23,44 +23,44 @@ const contents = [
 	{
 		title: 'Проєкт намбер 1',
 		image:
-			'https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/288d1a130411749.617fe05f7f2ce.jpg',
+			commercial2
 	},
 	{
 		title: 'Проєкт намбер 1',
 		image:
-			'https://mir-s3-cdn-cf.behance.net/project_modules/fs/a60563130411749.617fe05f81f08.jpg',
+			commercial3
 	},
 	{
 		title: 'Проєкт намбер 1',
 		image:
-			'https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/262f21130411749.617fe05eef70d.jpg',
+			commercial4
 	},
 	{
 		title: 'Проєкт намбер 2',
 		image:
-			'https://mir-s3-cdn-cf.behance.net/project_modules/fs/80c2f1109431553.5fd37635e2cb8.jpg',
+			commercial5
 	},
 	{
 		title: 'Проєкт намбер 2',
 		image:
-			'https://mir-s3-cdn-cf.behance.net/project_modules/fs/2d82fc109431553.5fd37635e32a2.jpg',
+			commercial6
 	},
 	{
 		title: 'Проєкт намбер 3',
 		image:
-			'https://mir-s3-cdn-cf.behance.net/project_modules/fs/e7dbdb95358347.5e95c4ce877b4.jpg',
+			commercial7
 	},
 	{
 		title: 'Проєкт намбер 3',
-		image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/8d85b695358347.5e95c4ce85612.jpg',
+		image: commercial8
 	},
 	{
 		title: 'Проєкт намбер 3',
-		image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/99fa9895358347.5e95c4ce84fb2.jpg',
+		image: commercial9
 	},
 	{
 		title: 'Проєкт намбер 3',
-		image: 'https://mir-s3-cdn-cf.behance.net/project_modules/fs/be0a0a95358347.5e95c4ce86787.jpg',
+		image: commercial10
 	},
 ]
 
