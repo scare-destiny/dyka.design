@@ -1,4 +1,4 @@
-import { NavbarNew, BackgroundImage, Footer } from "../../containers"
+import { NavbarNew, BackgroundImage, ScrollTrigger, Footer } from "../../containers"
 
 const Commercial = () => {
 	return (
@@ -9,7 +9,8 @@ const Commercial = () => {
         text="My Commercial Projects"
 				buttonText='Browse'
 				backgroundPosition={'center center'}
-			/>
+      />
+      <ScrollTrigger/>
       <Footer
         header={"Do you want to turn your project into reality?"}
         cta="So wow"

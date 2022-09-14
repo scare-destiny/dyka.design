@@ -1,5 +1,4 @@
 import { NavbarNew, BackgroundImage, Footer } from "../../containers"
-import VoyageSlider from "../../components/voyage-slider/VoyageSlider";
 
 const Residenital = () => {
 	return (

@@ -5,42 +5,255 @@ import {
 	Flex,
 	Icon,
 	SimpleGrid,
-	useColorModeValue, 
+	useColorModeValue,
 } from '@chakra-ui/react'
-
+import quotesImage from '../../assets/quote-svgrepo-com (1).svg'
 
 const testimonials = [
 	{
 		name: 'Sasha',
-		role: 'Chief Marketing Officer',
 		content:
 			"Anastasiia is an absolutely phenomenal professional. She has delivered above and beyond and we're very excited to work with her even more in the future. We have asked for the decor for part of our office, but looking to get more done now after seeing what she has delivered",
-		avatar:
-		<svg viewBox="0 0 36 36" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><title>Amelia Boynton</title><mask id="mask__beam" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36"><rect width="36" height="36" rx="72" fill="#FFFFFF"></rect></mask><g mask="url(#mask__beam)"><rect width="36" height="36" fill="#c1ac8d"></rect><rect x="0" y="0" width="36" height="36" transform="translate(6 6) rotate(332 18 18) scale(1.2)" fill="#000000" rx="6"></rect><g transform="translate(4 3) rotate(-2 18 18)"><path d="M13,21 a1,0.75 0 0,0 10,0" fill="#FFFFFF"></path><rect x="12" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#FFFFFF"></rect><rect x="22" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#FFFFFF"></rect></g></g></svg>
+		avatar: (
+			<svg
+				viewBox='0 0 36 36'
+				fill='none'
+				role='img'
+				xmlns='http://www.w3.org/2000/svg'
+				width='80'
+				height='80'
+			>
+				<title>Amelia Boynton</title>
+				<mask
+					id='mask__beam'
+					maskUnits='userSpaceOnUse'
+					x='0'
+					y='0'
+					width='36'
+					height='36'
+				>
+					<rect width='36' height='36' rx='72' fill='#FFFFFF'></rect>
+				</mask>
+				<g mask='url(#mask__beam)'>
+					<rect width='36' height='36' fill='#c1ac8d'></rect>
+					<rect
+						x='0'
+						y='0'
+						width='36'
+						height='36'
+						transform='translate(6 6) rotate(332 18 18) scale(1.2)'
+						fill='#000000'
+						rx='6'
+					></rect>
+					<g transform='translate(4 3) rotate(-2 18 18)'>
+						<path d='M13,21 a1,0.75 0 0,0 10,0' fill='#FFFFFF'></path>
+						<rect
+							x='12'
+							y='14'
+							width='1.5'
+							height='2'
+							rx='1'
+							stroke='none'
+							fill='#FFFFFF'
+						></rect>
+						<rect
+							x='22'
+							y='14'
+							width='1.5'
+							height='2'
+							rx='1'
+							stroke='none'
+							fill='#FFFFFF'
+						></rect>
+					</g>
+				</g>
+			</svg>
+		),
 	},
 	{
 		name: 'Kristina',
-		role: 'Entrepreneur',
 		content:
 			'Amazing work! Anastasiia is super responsive, quick and professional. The result is far beyond of what we could have expected, we are really happy and could only highly recommend!',
-		avatar:
-<svg viewBox="0 0 36 36" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><title>Betty Ford</title><mask id="mask__beam" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36"><rect width="36" height="36" rx="72" fill="#FFFFFF"></rect></mask><g mask="url(#mask__beam)"><rect width="36" height="36" fill="#0c8f8f"></rect><rect x="0" y="0" width="36" height="36" transform="translate(-1 -1) rotate(205 18 18) scale(1.1)" fill="#c1ac8d" rx="36"></rect><g transform="translate(-5 -3) rotate(5 18 18)"><path d="M15 20c2 1 4 1 6 0" stroke="#000000" fill="none" stroke-linecap="round"></path><rect x="14" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#000000"></rect><rect x="20" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#000000"></rect></g></g></svg>
+		avatar: (
+			<svg
+				viewBox='0 0 36 36'
+				fill='none'
+				role='img'
+				xmlns='http://www.w3.org/2000/svg'
+				width='80'
+				height='80'
+			>
+				<title>Betty Ford</title>
+				<mask
+					id='mask__beam'
+					maskUnits='userSpaceOnUse'
+					x='0'
+					y='0'
+					width='36'
+					height='36'
+				>
+					<rect width='36' height='36' rx='72' fill='#FFFFFF'></rect>
+				</mask>
+				<g mask='url(#mask__beam)'>
+					<rect width='36' height='36' fill='#0c8f8f'></rect>
+					<rect
+						x='0'
+						y='0'
+						width='36'
+						height='36'
+						transform='translate(-1 -1) rotate(205 18 18) scale(1.1)'
+						fill='#c1ac8d'
+						rx='36'
+					></rect>
+					<g transform='translate(-5 -3) rotate(5 18 18)'>
+						<path
+							d='M15 20c2 1 4 1 6 0'
+							stroke='#000000'
+							fill='none'
+							stroke-linecap='round'
+						></path>
+						<rect
+							x='14'
+							y='14'
+							width='1.5'
+							height='2'
+							rx='1'
+							stroke='none'
+							fill='#000000'
+						></rect>
+						<rect
+							x='20'
+							y='14'
+							width='1.5'
+							height='2'
+							rx='1'
+							stroke='none'
+							fill='#000000'
+						></rect>
+					</g>
+				</g>
+			</svg>
+		),
 	},
 	{
 		name: 'Darcy L.',
-		role: 'Movie star',
 		content:
 			"Second time working with Anastasiia on a project and it's even better than the last. Very impressed with her work and communication. Strongly recommended as a true professional",
-		avatar:
-		<svg viewBox="0 0 36 36" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><title>Christa McAuliffe</title><mask id="mask__beam" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36"><rect width="36" height="36" rx="72" fill="#FFFFFF"></rect></mask><g mask="url(#mask__beam)"><rect width="36" height="36" fill="#ffffff"></rect><rect x="0" y="0" width="36" height="36" transform="translate(4 4) rotate(190 18 18) scale(1.1)" fill="#c1ac8d" rx="6"></rect><g transform="translate(6 4) rotate(0 18 18)"><path d="M13,20 a1,0.75 0 0,0 10,0" fill="#000000"></path><rect x="14" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#000000"></rect><rect x="20" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#000000"></rect></g></g></svg>
+		avatar: (
+			<svg
+				viewBox='0 0 36 36'
+				fill='none'
+				role='img'
+				xmlns='http://www.w3.org/2000/svg'
+				width='80'
+				height='80'
+			>
+				<title>Christa McAuliffe</title>
+				<mask
+					id='mask__beam'
+					maskUnits='userSpaceOnUse'
+					x='0'
+					y='0'
+					width='36'
+					height='36'
+				>
+					<rect width='36' height='36' rx='72' fill='#FFFFFF'></rect>
+				</mask>
+				<g mask='url(#mask__beam)'>
+					<rect width='36' height='36' fill='#ffffff'></rect>
+					<rect
+						x='0'
+						y='0'
+						width='36'
+						height='36'
+						transform='translate(4 4) rotate(190 18 18) scale(1.1)'
+						fill='#c1ac8d'
+						rx='6'
+					></rect>
+					<g transform='translate(6 4) rotate(0 18 18)'>
+						<path d='M13,20 a1,0.75 0 0,0 10,0' fill='#000000'></path>
+						<rect
+							x='14'
+							y='14'
+							width='1.5'
+							height='2'
+							rx='1'
+							stroke='none'
+							fill='#000000'
+						></rect>
+						<rect
+							x='20'
+							y='14'
+							width='1.5'
+							height='2'
+							rx='1'
+							stroke='none'
+							fill='#000000'
+						></rect>
+					</g>
+				</g>
+			</svg>
+		),
 	},
 	{
 		name: 'Yaiza',
-		role: 'Musician',
 		content:
 			'Anastasiia was a pleasure to work with on this project. The communication was great and in a timely manner and the end result was excellent. I would recommend her to anyone. We are already working on another project together.',
-		avatar:
-<svg viewBox="0 0 36 36" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><title>Amelia Boynton</title><mask id="mask__beam" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36"><rect width="36" height="36" rx="72" fill="#FFFFFF"></rect></mask><g mask="url(#mask__beam)"><rect width="36" height="36" fill="#c1ac8d"></rect><rect x="0" y="0" width="36" height="36" transform="translate(6 6) rotate(332 18 18) scale(1.2)" fill="#000000" rx="6"></rect><g transform="translate(4 3) rotate(-2 18 18)"><path d="M13,21 a1,0.75 0 0,0 10,0" fill="#FFFFFF"></path><rect x="12" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#FFFFFF"></rect><rect x="22" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#FFFFFF"></rect></g></g></svg>
+		avatar: (
+			<svg
+				viewBox='0 0 36 36'
+				fill='none'
+				role='img'
+				xmlns='http://www.w3.org/2000/svg'
+				width='80'
+				height='80'
+			>
+				<title>Amelia Boynton</title>
+				<mask
+					id='mask__beam'
+					maskUnits='userSpaceOnUse'
+					x='0'
+					y='0'
+					width='36'
+					height='36'
+				>
+					<rect width='36' height='36' rx='72' fill='#FFFFFF'></rect>
+				</mask>
+				<g mask='url(#mask__beam)'>
+					<rect width='36' height='36' fill='#c1ac8d'></rect>
+					<rect
+						x='0'
+						y='0'
+						width='36'
+						height='36'
+						transform='translate(6 6) rotate(332 18 18) scale(1.2)'
+						fill='#000000'
+						rx='6'
+					></rect>
+					<g transform='translate(4 3) rotate(-2 18 18)'>
+						<path d='M13,21 a1,0.75 0 0,0 10,0' fill='#FFFFFF'></path>
+						<rect
+							x='12'
+							y='14'
+							width='1.5'
+							height='2'
+							rx='1'
+							stroke='none'
+							fill='#FFFFFF'
+						></rect>
+						<rect
+							x='22'
+							y='14'
+							width='1.5'
+							height='2'
+							rx='1'
+							stroke='none'
+							fill='#FFFFFF'
+						></rect>
+					</g>
+				</g>
+			</svg>
+		),
 	},
 ]
 
@@ -52,7 +265,7 @@ const backgrounds = [
 ]
 
 const TestimonialCard = (props) => {
-	const { name, role, content, avatar, index } = props
+	const { name, content, avatar, index } = props
 	return (
 		<Flex
 			boxShadow={'lg'}
@@ -72,7 +285,7 @@ const TestimonialCard = (props) => {
 				left: '35px',
 				top: '-10px',
 				backgroundSize: 'cover',
-				// backgroundImage: `url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='29' height='21' viewBox='0 0 29 21' fill='none'%3E%3Cpath d='M6.91391 21C4.56659 21 2.81678 20.2152 1.66446 18.6455C0.55482 17.0758 0 15.2515 0 13.1727C0 11.2636 0.405445 9.43939 1.21634 7.7C2.0699 5.91818 3.15821 4.3697 4.48124 3.05454C5.84695 1.69697 7.31935 0.678787 8.89845 0L13.3157 3.24545C11.5659 3.96667 9.98676 4.94242 8.57837 6.17273C7.21266 7.36061 6.25239 8.63333 5.69757 9.99091L6.01766 10.1818C6.27373 10.0121 6.55114 9.88485 6.84989 9.8C7.19132 9.71515 7.63944 9.67273 8.19426 9.67273C9.34658 9.67273 10.4776 10.097 11.5872 10.9455C12.7395 11.7939 13.3157 13.1091 13.3157 14.8909C13.3157 16.8848 12.6542 18.4121 11.3311 19.4727C10.0508 20.4909 8.57837 21 6.91391 21ZM22.5982 21C20.2509 21 18.5011 20.2152 17.3488 18.6455C16.2391 17.0758 15.6843 15.2515 15.6843 13.1727C15.6843 11.2636 16.0898 9.43939 16.9007 7.7C17.7542 5.91818 18.8425 4.3697 20.1656 3.05454C21.5313 1.69697 23.0037 0.678787 24.5828 0L29 3.24545C27.2502 3.96667 25.6711 4.94242 24.2627 6.17273C22.897 7.36061 21.9367 8.63333 21.3819 9.99091L21.702 10.1818C21.9581 10.0121 22.2355 9.88485 22.5342 9.8C22.8756 9.71515 23.3238 9.67273 23.8786 9.67273C25.0309 9.67273 26.1619 10.097 27.2715 10.9455C28.4238 11.7939 29 13.1091 29 14.8909C29 16.8848 28.3385 18.4121 27.0155 19.4727C25.7351 20.4909 24.2627 21 22.5982 21Z' fill='%239F7AEA'/%3E%3C/svg%3E")`,
+				// backgroundImage: `url(${quotesImage})`
 			}}
 			_before={{
 				content: '""',
@@ -87,8 +300,8 @@ const TestimonialCard = (props) => {
 				backgroundSize: 'cover',
 				top: 0,
 				left: 0,
-				// backgroundImage: backgrounds[index % 4],
-				background:'#FFF'
+				backgroundImage: backgrounds[index % 4],
+				background: '#C1AC8D',
 			}}
 		>
 			<Flex
@@ -106,10 +319,6 @@ const TestimonialCard = (props) => {
 				</chakra.p>
 				<chakra.p fontFamily={'Work Sans'} fontWeight={'bold'} fontSize={14}>
 					{name}
-					{/* <chakra.span fontFamily={'Inter'} fontWeight={'medium'} color={'gray.500'}>
-						{' '}
-						- {role}
-					</chakra.span> */}
 				</chakra.p>
 			</Flex>
 			<Avatar
@@ -141,7 +350,7 @@ const Testimonials = () => {
 					textTransform={'uppercase'}
 					color={'#C1AC8D'}
 				>
-					CLIENTS' LOVE 
+					CLIENTS' LOVE
 				</chakra.h3>
 				<chakra.h1
 					py={5}
@@ -168,7 +377,7 @@ const Testimonials = () => {
 			</Box>
 			<SimpleGrid columns={{ base: 1, xl: 2 }} spacing={'20'} mt={16} mx={'auto'}>
 				{testimonials.map((cardInfo, index) => (
-					<TestimonialCard {...cardInfo} index={index} />
+					<TestimonialCard {...cardInfo} key={index} index={index} />
 				))}
 			</SimpleGrid>
 			<Box>
