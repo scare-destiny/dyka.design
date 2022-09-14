@@ -1,10 +1,10 @@
 .scrollTrigger-container {
 	width: 100vw;
-	height: 1000vh;
+	height: 1200vh;
 	background: #000;
 }
 .app {
-	/* padding-top: 100vh; */
+	padding-top: 100vh;
 }
 .section {
 	position: relative;
