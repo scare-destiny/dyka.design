@@ -3,12 +3,22 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import './scrolltrigger.css'
 import { Box, SimpleGrid } from '@chakra-ui/react'
+import commercial1 from "../../assets/commercial-1.webp"
+import commercial2 from "../../assets/commercial-2.webp"
+import commercial3 from "../../assets/commercial-3.webp"
+import commercial4 from "../../assets/commercial-4.webp"
+import commercial5 from "../../assets/commercial-5.webp"
+import commercial6 from "../../assets/commercial-6.webp"
+import commercial7 from "../../assets/commercial-7.webp"
+import commercial8 from "../../assets/commercial-8.webp"
+import commercial9 from "../../assets/commercial-9.webp"
+import commercial10 from "../../assets/commercial-10.webp"
 
 const contents = [
 	{
 		title: 'Проєкт намбер 1',
 		image:
-			'https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/4d60e1130411749.617fe05f7fd1c.jpg',
+			commercial1,
 	},
 	{
 		title: 'Проєкт намбер 1',
@@ -54,6 +64,7 @@ const contents = [
 	},
 ]
 
+// TODO SERVER DIFFERENT IMAGES FOR mobile
 const Portfolio = () => {
 	gsap.registerPlugin(ScrollTrigger)
 
