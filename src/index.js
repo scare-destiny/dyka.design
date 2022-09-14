@@ -6,7 +6,7 @@ import './index.css'
 import App from './App'
 import { Residential, Commercial, Art, About, Contact } from './pages'
 
-const ScrollToTop = () => {
+// const ScrollToTop = () => {
 // 	const { pathname } = useLocation()
 
 // 	useEffect(() => {
@@ -20,7 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
 	<ChakraProvider>
 		<BrowserRouter>
-			<ScrollToTop/>
+			{/* <ScrollToTop/> */}
 			<Routes>
 				<Route path='/' element={<App />} />
 				<Route path='residential' element={<Residential />} />
