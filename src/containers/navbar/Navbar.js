@@ -18,6 +18,7 @@ import {
 	useColorMode,
 	Center,
 	Text,
+	Avatar,
 } from '@chakra-ui/react'
 import { Link as ReachLink } from 'react-router-dom'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
@@ -83,7 +84,10 @@ const Navbar = () => {
 									cursor={'pointer'}
 									minW={0}
 								>
-									<Button size={'md'} />
+									<Avatar
+										size={'sm'}
+										src={'https://avatars.dicebear.com/api/male/username.svg'}
+									/>
 								</MenuButton>
 								<MenuList alignItems={'center'}>
 									<MenuLinks />
@@ -102,3 +106,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+export { MenuLinks }

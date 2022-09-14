@@ -74,7 +74,7 @@ const Footer = () => {
 				align={'center'}
 			>
 				<Logo />
-				<Stack direction={'row'} spacing={6}>
+        <Stack direction={'row'} spacing={6}>
 					<Menu />
 				</Stack>
 			</Container>
