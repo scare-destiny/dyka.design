@@ -1,6 +1,13 @@
 import React from 'react'
 import { Box } from '@chakra-ui/react'
-import { Hero, About, Gallery, Footer, NavbarNew } from './containers'
+import {
+	Hero,
+	About,
+	Gallery,
+	Testimonials,
+	Footer,
+	NavbarNew,
+} from './containers'
 import './App.css'
 
 const App = () => {
@@ -11,8 +18,7 @@ const App = () => {
 			<Hero />
 			<About />
 			<Gallery />
-			<Box p={4}>
-			</Box>
+			<Testimonials />
 			<Footer
 				heading={'Do you want to turn your project into reality?'}
 				cta='Contact me'
