@@ -13,14 +13,14 @@ const App = () => {
 	// TODO ADD DARK MODE
 	return (
 		<div>
-			<Navbar/>
+			{/* <Navbar/> */}
 			<Hero />
 			<About />
 			<Gallery />
 			<Testimonials />
-			{/* <Footer
+			<Footer
 		
-			/> */}
+			/>
 		</div>
 	)
 }
