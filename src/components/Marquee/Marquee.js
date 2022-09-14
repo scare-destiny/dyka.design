@@ -1,14 +1,14 @@
 import React from "react";
-import image1 from "../assets/gallery-1.webp";
-import image2 from "../assets/gallery-2.webp";
-import image3 from "../assets/gallery-3.webp";
-import image4 from "../assets/gallery-4.webp";
-import image5 from "../assets/gallery-5.webp";
-import image1low from "../assets/lowres/gallery-1-lowres.webp";
-import image2low from "../assets/lowres/gallery-2-lowres.webp";
-import image3low from "../assets/lowres/gallery-3-lowres.webp";
-import image4low from "../assets/lowres/gallery-4-lowres.webp";
-import image5low from "../assets/lowres/gallery-5-lowres.webp";
+import image1 from "../../assets/gallery-1.webp";
+import image2 from "../../assets/gallery-2.webp";
+import image3 from "../../assets/gallery-3.webp";
+import image4 from "../../assets/gallery-4.webp";
+import image5 from "../../assets/gallery-5.webp";
+import image1low from "../../assets/lowres/gallery-1-lowres.webp";
+import image2low from "../../assets/lowres/gallery-2-lowres.webp";
+import image3low from "../../assets/lowres/gallery-3-lowres.webp";
+import image4low from "../../assets/lowres/gallery-4-lowres.webp";
+import image5low from "../../assets/lowres/gallery-5-lowres.webp";
 
 const Marquee = () => {
   return (

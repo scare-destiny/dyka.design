@@ -1,14 +1,14 @@
 import React from "react";
 import { BsBehance, BsInstagram } from "react-icons/bs";
-import Menu from "../../components/menu";
+import Menu from "../../components/Menu/menu";
 import "./footer.css";
 
-const Footer = ({header, cta}) => {
+const Footer = ({heading, cta}) => {
   return (
     <div className="dyka__footer section__padding">
       <div className="dyka__footer-heading">
         <h1 className="footer__text">
-          {header}
+          {heading}
         </h1>
       </div>
       <div className="dyka__footer-btn">

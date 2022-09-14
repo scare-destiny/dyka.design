@@ -1,6 +1,6 @@
 import React from "react";
-import Marquee from "../../components/Marquee";
-import MarqueeReversed from "../../components/Marquee-reverse";
+import Marquee from "../../components/Marquee/Marquee";
+import MarqueeReversed from "../../components/Marquee/Marquee-reverse";
 import "./gallery.css";
 
 const Gallery = () => {
