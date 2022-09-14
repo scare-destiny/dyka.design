@@ -1,10 +1,10 @@
-import { NavbarNew, BackgroundImage, ScrollTrigger, Footer } from "../../containers"
+import { Navbar, BackgroundImage, ScrollTrigger, Footer } from "../../containers"
 import image from "../../assets/commercial.webp";
 
 const Commercial = () => {
 	return (
     <>
-      <NavbarNew />
+      <Navbar />
       <BackgroundImage
         image={image}
         text="My Commercial Projects"

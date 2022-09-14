@@ -284,7 +284,7 @@ const TestimonialCard = (props) => {
 				left: '35px',
 				top: '-10px',
 				backgroundSize: 'cover',
-				// backgroundImage: `url(${quotesImage})`
+				// backgroundImage:
 			}}
 			_before={{
 				content: '""',

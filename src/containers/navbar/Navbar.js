@@ -1,70 +1,104 @@
-import React, { useState } from "react";
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-import logo from "../../assets/logo.jpg";
-import "./navbar.css";
+import React from 'react'
+import './navbar.css'
+import { BiHeart } from 'react-icons/bi'
 
-const Menu = () => {
-  return (
-    <>
-      <p>
-        <a href="Main">Main</a>
-      </p>
-      <p>
-        <a href="Residential">Residential</a>
-      </p>
-      <p>
-        <a href="Commercial">Commercial</a>
-      </p>
-      <p>
-        <a href="Art">Art</a>
-      </p>
-      <p>
-        <a href="About">About</a>
-      </p>
-      <p>
-        <a href="Contact">Contact</a>
-      </p>
-    </>
-  );
-};
+import {
+	Box,
+	Flex,
+	Button,
+	Link,
+	Menu,
+	MenuButton,
+	MenuList,
+	MenuItem,
+	MenuDivider,
+	useDisclosure,
+	useColorModeValue,
+	Stack,
+	useColorMode,
+	Center,
+	Text,
+} from '@chakra-ui/react'
+import { Link as ReachLink } from 'react-router-dom'
+import { MoonIcon, SunIcon } from '@chakra-ui/icons'
 
-const Navbar = () => {
-	const [toggleMenu, setToggleMenu] = useState(false);
-	
+const MenuLinks = () => {
 	return (
-		<div className="dyka__navbar">
-			<div className="dyka__navbar-links">
-				<div className="dyka__navbar-links_logo">
-					<img src={logo} alt='Dyka Design Logo'/>
-				</div>
-				<div className="dyka__navbar-links_container">
-					<Menu/>
-				</div>
-			</div>
-			<div className="dyka__navbar-menu">
-        {toggleMenu ? (
-          <RiCloseLine
-            color='black'
-            size={27}
-            onClick={() => setToggleMenu(false)}
-          />
-        ) : (
-          <RiMenu3Line
-            color="#black"
-            size={27}
-            onClick={() => setToggleMenu(true)}
-          />
-        )}
-        {toggleMenu && (
-          <div className="dyka__navbar-menu_container scale-up-center">
-            <div className="dyka__navbar-menu_container-links">
-            <Menu/>
-            </div>
-          </div>
-        )}
-      </div>
-    </div>
-  );
-};
+		<>
+			<MenuItem>
+				<Link as={ReachLink} to='/'>
+					Home
+				</Link>
+			</MenuItem>
+			<MenuItem>
+				<Link as={ReachLink} to='/residential'>
+					Residential
+				</Link>
+			</MenuItem>
+			<MenuItem>
+				<Link as={ReachLink} to='/commercial'>
+					Commercial
+				</Link>
+			</MenuItem>
+			<MenuItem>
+				<Link as={ReachLink} to='/art'>
+					Art
+				</Link>
+			</MenuItem>
+			<MenuItem>
+				<Link as={ReachLink} to='/about'>
+					About
+				</Link>
+			</MenuItem>
+			<MenuItem>
+				<Link as={ReachLink} to='/contact'>
+					Contact
+				</Link>
+			</MenuItem>
+		</>
+	)
+}
+const Navbar = () => {
+	const { colorMode, toggleColorMode } = useColorMode()
+	const { isOpen, onOpen, onClose } = useDisclosure()
+	return (
+		<>
+			<Box bg={useColorModeValue('white.100', 'white.900')} px={4}>
+				<Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
+					<Box>
+						<Text fontSize='sm'>Dyka Design</Text>
+					</Box>
 
-export default Navbar;
+					<Flex alignItems={'center'}>
+						<Stack direction={'row'} spacing={7}>
+							<Button onClick={toggleColorMode}>
+								{colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+							</Button>
+
+							<Menu isLazy>
+								<MenuButton
+									as={Button}
+									rounded={'full'}
+									variant={'link'}
+									cursor={'pointer'}
+									minW={0}
+								>
+									<Button size={'md'} />
+								</MenuButton>
+								<MenuList alignItems={'center'}>
+									<MenuLinks />
+									<MenuDivider />
+									<Center>
+										<BiHeart size={20} />
+									</Center>
+								</MenuList>
+							</Menu>
+						</Stack>
+					</Flex>
+				</Flex>
+			</Box>
+		</>
+	)
+}
+
+export default Navbar

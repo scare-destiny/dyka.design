@@ -1,9 +1,9 @@
-import { NavbarNew, BackgroundImage, Footer } from "../../containers"
+import { Navbar, BackgroundImage, Footer } from "../../containers"
 
 const Residenital = () => {
 	return (
     <>
-      <NavbarNew />
+      <Navbar />
       <BackgroundImage
         image='https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/648e31116398401.6061801950831.jpg'
         text="My Residential Projects"

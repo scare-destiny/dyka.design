@@ -1,5 +1,5 @@
 import {
-	NavbarNew,
+	Navbar,
 	BackgroundImage,
 	ContactForm,
 	Footer,
@@ -8,7 +8,7 @@ import {
 const Contact = () => {
 	return (
 		<>
-			<NavbarNew />
+			<Navbar />
 			<BackgroundImage
         image='https://mir-s3-cdn-cf.behance.net/project_modules/fs/6f4b1a113393045.6026a9d2a3d7c.jpg'
         text="Let's make a beatiful design for you"

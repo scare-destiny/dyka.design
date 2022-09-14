@@ -20,12 +20,12 @@ const About = () => {
 			direction={'column'}
 			width={'full'}
 		>
-			<div class='about-heading-wrapper'>
-				<div class='about-heading-container'>
+			<div className='about-heading-wrapper'>
+				<div className='about-heading-container'>
 					<h1>
-						WELCOME <break />
+						WELCOME 
 						TO
-						<break /> DYKA DESIGN
+				 DYKA DESIGN
 					</h1>
 				</div>
 			</div>
