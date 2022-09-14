@@ -1,11 +1,12 @@
 import { NavbarNew, BackgroundImage, ScrollTrigger, Footer } from "../../containers"
+import image from "../../assets/commercial.webp";
 
 const Commercial = () => {
 	return (
     <>
       <NavbarNew />
       <BackgroundImage
-        image='https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/fe491e95358347.5e95c4ce83fb7.jpg'
+        image={image}
         text="My Commercial Projects"
 				buttonText='Browse'
 				backgroundPosition={'center center'}
