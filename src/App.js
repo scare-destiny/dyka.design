@@ -9,10 +9,11 @@ import {
 } from './containers'
 import './App.css'
 
+// У Скрол вселяється демон після візиту commercial (через ту галерею зі скролом
 const App = () => {
 	return (
 		<div>
-			<Navbar/>
+			<Navbar />
 			<Hero />
 			<About />
 			<Gallery />

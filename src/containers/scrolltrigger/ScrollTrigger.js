@@ -67,53 +67,53 @@ const contents = [
 const Portfolio = () => {
 	gsap.registerPlugin(ScrollTrigger)
 
-	useEffect(() => {
-		let i = 0
-		const polygonFrom = 'polygon(0% 100%, 100% 100%, 100% 200%, 0% 200%)'
-		const polygonTo = 'polygon(0% -100%, 100% -100%, 100% 0%, 0% 0%)'
-		// const polygonFrom = 'polygon(0% 100%, 100% 120%, 100% 220%, 0% 200%)'
-		// const polygonTo = 'polygon(0% -120%, 100% -100%, 100% 0%, 0% -20%)'
-		console.log(contents.length)
-		for (i = 0; i < contents.length; i++) {
-			gsap.fromTo(
-				'.section:nth-child(' + (i + 1) + ') .title',
-				{
-					clipPath: polygonFrom,
-				},
-				{
-					clipPath: polygonTo,
-					ease: 'linear',
-					scrollTrigger: {
-						// markers: true,
-						trigger: '.section:nth-child(' + (i + 1) + ')',
-						start: 'top center+=300px',
-						end: 'bottom-=300px top',
-						scrub: true,
-					},
-				}
-			)
+	// useEffect(() => {
+	// 	let i = 0
+	// 	const polygonFrom = 'polygon(0% 100%, 100% 100%, 100% 200%, 0% 200%)'
+	// 	const polygonTo = 'polygon(0% -100%, 100% -100%, 100% 0%, 0% 0%)'
+	// 	// const polygonFrom = 'polygon(0% 100%, 100% 120%, 100% 220%, 0% 200%)'
+	// 	// const polygonTo = 'polygon(0% -120%, 100% -100%, 100% 0%, 0% -20%)'
+	// 	console.log(contents.length)
+	// 	for (i = 0; i < contents.length; i++) {
+	// 		gsap.fromTo(
+	// 			'.section:nth-child(' + (i + 1) + ') .title',
+	// 			{
+	// 				clipPath: polygonFrom,
+	// 			},
+	// 			{
+	// 				clipPath: polygonTo,
+	// 				ease: 'linear',
+	// 				scrollTrigger: {
+	// 					// markers: true,
+	// 					trigger: '.section:nth-child(' + (i + 1) + ')',
+	// 					start: 'top center+=300px',
+	// 					end: 'bottom-=300px top',
+	// 					scrub: true,
+	// 				},
+	// 			},
+	// 		)
 
-			gsap.fromTo(
-				'.section:nth-child(' + (i + 1) + ') .graphic',
-				{
-					clipPath: polygonFrom,
-					backgroundPositionY: '60px',
-				},
-				{
-					clipPath: polygonTo,
-					backgroundPositionY: '-60px',
-					ease: 'linear',
-					scrollTrigger: {
-						// markers: true,
-						trigger: '.section:nth-child(' + (i + 1) + ')',
-						start: 'top bottom',
-						end: 'bottom top',
-						scrub: true,
-					},
-				}
-			)
-		}
-	}, [])
+	// 		gsap.fromTo(
+	// 			'.section:nth-child(' + (i + 1) + ') .graphic',
+	// 			{
+	// 				clipPath: polygonFrom,
+	// 				backgroundPositionY: '60px',
+	// 			},
+	// 			{
+	// 				clipPath: polygonTo,
+	// 				backgroundPositionY: '-60px',
+	// 				ease: 'linear',
+	// 				scrollTrigger: {
+	// 					// markers: true,
+	// 					trigger: '.section:nth-child(' + (i + 1) + ')',
+	// 					start: 'top bottom',
+	// 					end: 'bottom top',
+	// 					scrub: true,
+	// 				},
+	// 			}
+	// 		)
+	// 	}
+	// }, [])
 
 	return (
 		<div className='scrollTrigger-container'>
