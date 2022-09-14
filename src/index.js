@@ -7,14 +7,14 @@ import App from './App'
 import { Residential, Commercial, Art, About, Contact } from './pages'
 
 const ScrollToTop = () => {
-	const { pathname } = useLocation()
+// 	const { pathname } = useLocation()
 
-	useEffect(() => {
-		window.scrollTo(0, 0)
-	}, [pathname])
+// 	useEffect(() => {
+// 		window.scrollTo(0, 0)
+// 	}, [pathname])
 
-	return null;
-}
+// 	return null;
+// }
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
