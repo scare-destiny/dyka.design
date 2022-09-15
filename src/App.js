@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-	Hero,
+	BackgroundImage,
 	About,
 	Gallery,
 	Testimonials,
@@ -8,13 +8,14 @@ import {
 	Navbar,
 } from './containers'
 import './App.css'
+import image from './assets/heroimage.webp'
 
 // У Скрол вселяється демон після візиту commercial (через ту галерею зі скролом)
 const App = () => {
 	return (
 		<div>
 			<Navbar />
-			<Hero />
+			<BackgroundImage image={image} backgroundPosition={'center center'} />
 			<About />
 			<Gallery />
 			<Testimonials />
