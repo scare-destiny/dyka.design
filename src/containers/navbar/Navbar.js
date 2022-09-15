@@ -1,5 +1,4 @@
 import React from 'react'
-import './navbar.css'
 import { BiHeart } from 'react-icons/bi'
 
 import {

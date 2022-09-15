@@ -1,13 +1,14 @@
 import React from 'react'
 import Menu from '../../components/Menu/menu'
-import './footer.css'
+
 
 import {
 	Box,
 	chakra,
 	Container,
 	Stack,
-	Text,
+  Text,
+  Wrap,
 	useColorModeValue,
 	VisuallyHidden,
 } from '@chakra-ui/react'
@@ -72,9 +73,9 @@ const Footer = () => {
 				align={'center'}
 			>
 				<Logo />
-				<Stack direction={'row'} spacing={6}>
+				<Wrap direction={'row'} spacing={6} justify='center'>
 					<Menu />
-				</Stack>
+				</Wrap>
 			</Container>
 
 			<Box
@@ -97,13 +98,13 @@ const Footer = () => {
 							label={'Behance'}
 							href={'https://www.behance.net/anastasiyacb27'}
 						>
-							<FaBehance />
+							<FaBehance size={25} />
 						</SocialButton>
 						<SocialButton
 							label={'Instagram'}
 							href={'https://www.instagram.com/dyka_design/'}
 						>
-							<FaInstagram />
+							<FaInstagram size={25} />
 						</SocialButton>
 					</Stack>
 				</Container>

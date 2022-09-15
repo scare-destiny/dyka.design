@@ -1,12 +1,8 @@
 import React from 'react'
 import {
-	Avatar,
 	Box,
 	chakra,
 	Flex,
-	Icon,
-	SimpleGrid,
-	useColorModeValue,
 } from '@chakra-ui/react'
 import './about.css'
 
