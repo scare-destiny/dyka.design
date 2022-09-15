@@ -64,7 +64,9 @@ const Navbar = () => {
 			<Box bg={useColorModeValue('white.100', 'white.900')} px={4}>
 				<Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
 					<Box>
-						<Text fontSize='sm'>Dyka Design</Text>
+					<Link as={ReachLink} to='/'>
+					Dyka Design
+				</Link>
 					</Box>
 
 					<Flex alignItems={'center'}>
